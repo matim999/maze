@@ -101,7 +101,7 @@ def main():
     parser.add_argument("-m", "--method", nargs='?', const=sf.Default, default=sf.Default,
                         choices=sf.Choices)
     parser.add_argument("output_file")
-    input_file = "examples\\normal.png"
+    input_file = "examples\\braid200.png"
     args = parser.parse_args()
 
     solve(sf, args.method, input_file, args.output_file)

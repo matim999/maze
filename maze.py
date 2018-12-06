@@ -116,6 +116,7 @@ class Maze:
 
         impixels[tuple(reversed(self.start.Position))] = (255, 0, 0)
         impixels[tuple(reversed(self.end.Position))] = (255, 0, 0)
+
         im.save("results\\nodes.png")
 
         self.count = count
