@@ -1,7 +1,7 @@
 class SolverFactory:
     def __init__(self):
         self.Default = "breadthfirst"
-        self.Choices = ["breadthfirst","depthfirst","dijkstra", "astar","leftturn"]
+        self.Choices = ["breadthfirst", "depthfirst", "dijkstra", "astar", "leftturn"]
 
     def createsolver(self, type):
         if type == "leftturn":

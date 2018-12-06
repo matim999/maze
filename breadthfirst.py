@@ -1,5 +1,6 @@
 from collections import deque
 
+
 def solve(maze):
     print("Using breadthfirst algorithm")
 

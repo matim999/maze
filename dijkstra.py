@@ -1,5 +1,6 @@
 from FibonacciHeap import FibHeap
-from priority_queue import FibPQ, HeapPQ, QueuePQ
+from priority_queue import HeapPQ
+
 
 def solve(maze):
     print("Using dijkstra algorithm")
@@ -95,7 +96,6 @@ def solve(maze):
                             prev[vposindex] = u
 
         visited[uposindex] = True
-
 
     # We want to reconstruct the path. We start at end, and then go prev[end] and follow all the prev[] links until we're back at the start
     from collections import deque

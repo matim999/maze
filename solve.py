@@ -1,11 +1,12 @@
-from PIL import Image
-import time
-import pygame
-from maze import Maze
-from factory import SolverFactory
-
 import argparse
 import os
+import time
+
+import pygame
+from PIL import Image
+
+from factory import SolverFactory
+from maze import Maze
 
 max_iter = 300
 
